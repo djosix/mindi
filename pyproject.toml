@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mindi"
+version = "0.1.0"
+description = "A minimal dependency injection framework for Python with zero dependencies. Features type-hints support, singleton caching, and both type and string-based identifiers."
+authors = ["djosix <djosicks@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "mindi" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
